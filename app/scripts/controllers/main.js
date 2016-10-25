@@ -98,6 +98,7 @@ angular.module('stayzillaApp')
 
 	$scope.start = function(){
 	  	$scope.time = 0;
+	  	$scope.score = 0;
 	  	$scope.$broadcast('redraw');
 		if (angular.isDefined($scope.timer)) {
 	        $interval.cancel($scope.timer);
