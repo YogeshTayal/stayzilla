@@ -1,0 +1,19 @@
+<div class="jumbotron">
+  <div class="options">
+    <button ng-click="start()">Restart</button>
+    <div>
+      <label>Board Size:</label>
+      <select ng-model="selectedBoardSize" ng-options="size for size in sizes"
+      ng-change="sizeChanged()"></select>
+    </div>
+    <label>Your Score: {{score}}</label>
+    <label>High Score: {{highScore}}</label>
+    <label>Time: {{time}} seconds</label>
+  </div>
+</div>
+<div class="jumbotron">
+  <div class="board" ng-style="boardStyle">
+    <div snake-food class="snake-food"></div>
+    <snake></snake>
+  </div>
+</div>
