@@ -66,7 +66,7 @@ angular.module('stayzillaApp')
 		  					$scope.snakeCells[i].y<0 ||
 		  					$scope.snakeCells[i].y>=$scope.selectedBoardSize)
 		  				{
-		  					alert('You Lost');
+		  					alert('Oops..!! Game Ended');
 								$scope.start();
 		  					
 		  					return;
