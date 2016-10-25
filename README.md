@@ -1,12 +1,17 @@
 # stayzilla
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+This project is responsive and is created using AngularJs.
 
-## Build & development
+You will need node.js to run this project.
 
-Run `grunt` for building and `grunt serve` for preview.
+Follow the below mentioned steps to run it
 
-## Testing
+	$ npm install
 
-Running `grunt test` will run the unit tests with karma.
+	$ bower install
+
+	$ npm install -g grunt-cli
+
+	$ grunt serve
+
+If it doesn't open a browser window then open one manually and go to http://localhost:9000/#/
